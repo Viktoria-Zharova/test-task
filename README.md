@@ -17,6 +17,3 @@ git clone https://github.com/Viktoria-Zharova/test-task.git
 2. Установите зависимости: npm install
 3. Запустите: npm start
 4. Откройте в браузере
-
-# Дополнительная информация:
-В файле example.json содержатся примеры данных, которые загружаются в приложение.
