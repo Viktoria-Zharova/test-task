@@ -1,6 +1,6 @@
 import React from 'react';
-import IdList from './components/IdList/IdList.tsx';
-import './App.css'
+import IdList from './components/IdList/IdList';
+
 const App: React.FC = () => {
     return (
         <div>
