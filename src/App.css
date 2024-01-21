@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  background-color: #f0f0f0;
+  font-family: Monaco, sans-serif;
+}
+
+/*# sourceMappingURL=App.css.map */
