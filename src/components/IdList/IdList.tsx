@@ -18,7 +18,7 @@ const IdList: React.FC = () => {
     const [filteredData, setFilteredData] = useState<JobData[]>([]);
     const [filterValue, setFilterValue] = useState<string>('');
 
-    //загрузка данных
+    //загрузка данных с файла
     useEffect(() => {
         // загрузка данных с джейсонки
         axios.get<JobData[]>('/example.json') //запрос
