@@ -54,11 +54,11 @@ const IdList: React.FC = () => {
             <div>
                 <input
                     type="number"
-                    placeholder="Фильтр по идентификатору"
+                    placeholder="Enter Id"
                     value={filterValue}
                     onChange={handleFilterChange}
                 />
-                <button onClick={resetFilter}>Сбросить фильтр</button>
+                <button onClick={resetFilter}>Reset filter</button>
             </div>
             <ul>
                 {filteredData.map(item => (
